@@ -52,7 +52,8 @@ The script read the source data into differents dataframe and perform five main 
   * "-" will be deleted
   * The first "t" will be replaced by "time"
   * The first "f" will be replaced by "frequency"
-5. Creates a file named "AveragesTidyDataSet.txt" with the average of each variable for each activity and each subject.
+5. Creates a file named "AveragesTidyDataSet.txt" with the average of each variable for each activity and each subject.  
+  For this, a final data frame is created fusing all the dataframe (variables dataframe, subject dataframe and activities dataframe) with `cbind`. This data frame will be grouped by activity and subject and will be calculated the mean of each variable for each subject-activity pair (the library `(dplyr)` will be used for this).
 
 
 
