@@ -6,7 +6,8 @@
 
 There are two main groups of variables:
 
-1. activity/subject: The file is grouped by these variables, so each row has an unique value for the pair activity/subject. There is 30 differents subjects and 6 differents activities, so we will have 180 (30x6) rows.
+1. activity/subject:  
+The file is grouped by these variables, so each row has an unique value for the pair activity/subject. There is 30 differents subjects and 6 differents activities, so we will have 180 (30x6) rows.
 Subject: Indicates the subject (person) from which measurements were taken. 
   Values: There are 30 volunteers so the variable will have 30 diferrents values (from 1 to 30) 
 activity: Show the state of the subject (the action that the subject was performing) when the measurements were taken 
