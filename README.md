@@ -16,8 +16,8 @@ The source data can be downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 #####How to read AveragesTidyDataSet.txt
 
-To read the final results file in R should be used:
-read.table("AveragesTidyDataSet.txt",header=TRUE)
+To read the final results file in R is recommended to use the next sentece:  
+`read.table("AveragesTidyDataSet.txt",header=TRUE)`
 
 The file must be in the WorkingDirectory or it will be necessary to change the path in the sentence
 
