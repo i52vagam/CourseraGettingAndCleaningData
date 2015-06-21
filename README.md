@@ -19,7 +19,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 To read the final results file in R is recommended to use the next sentece:  
 `read.table("AveragesTidyDataSet.txt",header=TRUE)`
 
-The file must be in the WorkingDirectory or it will be necessary to change the path in the sentence
+The file must be in the WorkingDirectory or it will be necessary to change the path in the sentence.
 
 #####R script   
 
