@@ -12,7 +12,6 @@ There are two main groups of variables:
     * **subject**: Indicates the subject (person) from which measurements were taken.  
         Values: There are 30 volunteers so the variable will have 30 diferrents values (from 1 to 30)  
     * **activity**: Show the state of the subject (the action that the subject was performing) when the measurements were taken.  
-    
         Values: it can take 6 differents values:
           * WALKING.  
           * WALKING_UPSTAIRS  
