@@ -9,9 +9,11 @@ There are two main groups of variables:
 ######1. activity/subject:  
   The file is grouped by these variables, so each row has an unique value for the pair activity/subject.  
   There is 30 differents subjects and 6 differents activities, so we will have 180 (30x6) rows.  
-    * subject: Indicates the subject (person) from which measurements were taken.  
-        Values: There are 30 volunteers so the variable will have 30 diferrents values (from 1 to 30)  
-    * activity: Show the state of the subject (the action that the subject was performing) when the measurements were taken.  
+    * **subject**: Indicates the subject (person) from which measurements were taken.  
+        Values: There are 30 volunteers so the variable will have 30 diferrents values (from 1 to 30)    
+        
+    * **activity**: Show the state of the subject (the action that the subject was performing) when the measurements were taken.  
+    
         Values: it can take 6 differents values:
           * WALKING.  
           * WALKING_UPSTAIRS  
@@ -27,10 +29,10 @@ There are two main groups of variables:
   The values show the mean of the values for each pair subject/activity.  
 
   The names have 4 main parts:  
-    1. Domain: "time" or "frequency"  
-    2. Measurement target: "BodyAcc", "GravityAcc", "BodyAccJerk", "BodyGyro", "BodyGyroJerk", "BodyAccMag", "GravityAccMag", "BodyAccJerkMag", "BodyGyroMag", "BodyGyroJerkMag", "BodyBodyAccJerkMag", "BodyBodyGyroMag" or "BodyBodyGyroJerkMag"  
-    3. Function applied: "Mean" or "Std"  
-    4. Axis: "X", "Y", "Z" or ""(null)  
+    1. **Domain**: "time" or "frequency"  
+    2. **Measurement target**: "BodyAcc", "GravityAcc", "BodyAccJerk", "BodyGyro", "BodyGyroJerk", "BodyAccMag", "GravityAccMag", "BodyAccJerkMag", "BodyGyroMag", "BodyGyroJerkMag", "BodyBodyAccJerkMag", "BodyBodyGyroMag" or "BodyBodyGyroJerkMag"  
+    3. **Function applied**: "Mean" or "Std"  
+    4. **Axis**: "X", "Y", "Z" or ""(null)  
 
     Variable list:
       timeBodyAccMeanX  
