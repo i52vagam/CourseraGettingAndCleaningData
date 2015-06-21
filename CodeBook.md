@@ -1,23 +1,22 @@
 
 
-This document explains the variables contained in the file “AveragesTidyDataSet.txt”
+#CodeBook
+
+######This document explains the variables contained in the file "AveragesTidyDataSet.txt"
 
 There are two main groups of variables:
 
-1. activity/subject: The file is grouped by these variables, so each row has an unique value for the pair activity/subject. There is 30 differents subjects and 6 differents activities, so we will have 180 (30x6) rows. 
-
+1. activity/subject: The file is grouped by these variables, so each row has an unique value for the pair activity/subject. There is 30 differents subjects and 6 differents activities, so we will have 180 (30x6) rows.
 Subject: Indicates the subject (person) from which measurements were taken. 
   Values: There are 30 volunteers so the variable will have 30 diferrents values (from 1 to 30) 
-
-* activity: Show the state of the subject (the action that the subject was performing) when the measurements were taken 
+activity: Show the state of the subject (the action that the subject was performing) when the measurements were taken 
 values: it can take 6 differents values:
-1. WALKING: 
-2. WALKING_UPSTAIRS
-3. WALKING_DOWNSTAIRS
-4. SITTING
-5. STANDING
-6. LAYING
-
+WALKING: 
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
 2. Measurements:
 
 Each variable name indicate the kind of measurement taken and the function applied to them (only mean and standard deviation measurements were taken from the original data). 
@@ -25,10 +24,10 @@ Each variable name indicate the kind of measurement taken and the function appli
 The values show the mean of the values for each pair subject/activity.
 
 The names have 4 main parts:
-1. Domain: “time” or “frequency”
-2. Measurement target: “BodyAcc”, “GravityAcc”, “BodyAccJerk”, “BodyGyro”, “BodyGyroJerk”, “BodyAccMag",”GravityAccMag”, “BodyAccJerkMag”,”BodyGyroMag”,” BodyGyroJerkMag”, “BodyBodyAccJerkMag”,”BodyBodyGyroMag” or ”BodyBodyGyroJerkMag”
-3. Function applied: “Mean” or “Std”.
-4. Axis: “X”, “Y”, “Z” or “”(null)
+1. Domain: √ítime√ì or √ífrequency√ì
+2. Measurement target: √íBodyAcc√ì, √íGravityAcc√ì, √íBodyAccJerk√ì, √íBodyGyro√ì, √íBodyGyroJerk√ì, √íBodyAccMag",√ìGravityAccMag√ì, √íBodyAccJerkMag√ì,√ìBodyGyroMag√ì,√ì BodyGyroJerkMag√ì, √íBodyBodyAccJerkMag√ì,√ìBodyBodyGyroMag√ì or √ìBodyBodyGyroJerkMag√ì
+3. Function applied: √íMean√ì or √íStd√ì.
+4. Axis: √íX√ì, √íY√ì, √íZ√ì or √í√ì(null)
 
 Variable list:
 timeBodyAccMeanX
