@@ -12,7 +12,7 @@ Repository hosting my project for the Coursera "Getting and Cleaning Data" cours
 The dataset and the experiment is explained in the next URL:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-The data needed can be downloaded from:
+The source data can be downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 #####How to read AveragesTidyDataSet.txt
 
