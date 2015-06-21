@@ -3,7 +3,7 @@ Repository hosting my project for the Coursera "Getting and Cleaning Data" cours
 
 #####Repository content:
 1. README.md: This document
-2. CookBook.md: Contain information about the content of the file "AveragesTidyDataSet.txt"
+2. CookBook.md: Contain information about the variables contained in the file "AveragesTidyDataSet.txt"
 3. run_analysis.R: Script that, applied on the source dataset, will return the file "AveragesTidyDataSet.txt"
 4. AveragesTidyDataSet.txt: results file.
 
