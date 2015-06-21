@@ -18,7 +18,8 @@ There is 30 differents subjects and 6 differents activities, so we will have 180
         * WALKING_DOWNSTAIRS  
         * SITTING  
         * STANDING  
-        * LAYING
+        * LAYING    
+
 2. Measurements:
 
 Each variable name indicate the kind of measurement taken and the function applied to them (only mean and standard deviation measurements were taken from the original data). 
