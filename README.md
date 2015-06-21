@@ -25,7 +25,7 @@ The file must be in the WorkingDirectory or it will be necessary to change the p
 
 To run the script is not necessary to download the data first. If all necessary files aren't in the working directory, the script will download an unzip the files in the working directory.
 
-The files used by the script are located in the "UCI HAR Dataset" folder. This is the list of needed files:  
+The files used by the script are located in the "UCI HAR Dataset" folder. Here is a list of the needed files:  
 `train/X_train.txt`
 `train/y_train.txt`
 `train/subject_train.tx`
@@ -35,7 +35,7 @@ The files used by the script are located in the "UCI HAR Dataset" folder. This i
 `features.txt`
 `activity_labels.txt`
 
-The script read the source data into differents dataframe and perform five main steps:
+The script read the source data and write the info into differents dataframe. Then it performs five main steps:
 
 1. Merges the training and the test sets to create one data set.  
   This is done using `rbind` to join the rows in the train files with the rows in the test files in a data frame.
